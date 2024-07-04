@@ -11,6 +11,9 @@ function App() {
   }
 
   function handleAddTodos(newTodo){
+    if(newTodo.trim() === ''){
+      return
+    }
     const newTodoList = [...todos, newTodo]
     persistData(newTodoList)
     setTodos(newTodoList)
