@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://elabra1.github.io/toDo/",
+  "homepage": "https://github.com/elabra1/reactjs-todolist/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
